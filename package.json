@@ -1,0 +1,24 @@
+{
+  "name": "simple-cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node16-linux-x64",
+      "node16-macos-x64",
+      "node16-win-x64"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "nodemon": "^3.1.7"
+  }
+}
