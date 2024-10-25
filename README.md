@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 # Simple CLI Tool
 
 A simple command-line tool for basic arithmetic operations built with Node.js.
